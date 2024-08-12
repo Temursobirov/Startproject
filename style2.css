@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    background: url(images/Обои\ На\ Пк\ 1440\ 900.jfif) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.border {
+    background: transparent;
+    border: 2px solid rgba(265, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: white;
+    border-radius: 10px;
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+/* Header*/
+.main-header_brend {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header_brend img {
+    width: 150px;
+}
+.main-navigation {
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 450px;
+}
+.main-navigation_item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation_item a {
+   color: #05364d; 
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.main-navigation_item a:hover {
+color: cornflowerblue;
+}
+ .main-navigation_item.active  a {
+color:cornflowerblue;
+ }
+ /* main section*/
+.main-section {
+    padding: 100px 30px;
+}
+.main-section_welcome{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom:0px ;
+    margin-top: 0px;
+    font-weight: 900;
+}
+
+.main-section_info1 {
+    max-width: 200px;
+    display: inline-block;
+    padding-right: 60px;
+    margin-top: 15px;
+}
+.main-section_info h3 {
+    text-align: center;
+}
+.navigation {
+    display: inline-block;
+}
+form   {
+    color: #05364d; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
